@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-# Nama : Adro Anra Purnama
-# NIM : 13220005
+/* Nama : Adro Anra Purnama
+   NIM : 13220005 */
 
 int A = 0;
 int B = 0;
