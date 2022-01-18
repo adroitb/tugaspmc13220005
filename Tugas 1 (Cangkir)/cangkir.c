@@ -92,7 +92,7 @@ void perintah5(){
 void perintah6(){
     int Atemp = A;
     int Btemp = B;
-    A = min(3, (A+B));
-    B = max(0, (A+B-3));
+    A = min(3, (Atemp + Btemp));
+    B = max(0, (Atemp + Btemp - 3));
 }
 
