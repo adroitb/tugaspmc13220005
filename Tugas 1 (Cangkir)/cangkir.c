@@ -3,23 +3,56 @@
 /* Nama : Adro Anra Purnama
    NIM : 13220005 */
 
+
 int A = 0;
 int B = 0;
-int perintah;
+int perintah = 0;
+int rtn = 0;
 
+int empty_stdin (void){
+    int c = getchar();
+
+    while (c != '\n' && c != EOF)
+        c = getchar();
+}
 int main()
 {
     while(B != 4){
-        printf("Instruksi Main\n");
-        printf("1. Mengisi Cangkir A\n");
-        printf("2. Mengisi Cangkir B\n");
-        printf("3. Membuang Air Cangkir A\n");
-        printf("4. Membuang Air Cangkir B\n");
-        printf("5. Menuangkan Cangkir A kepada Cangkir B\n");
-        printf("6. Menuangkan Cangkir B kepada Cangkir A\n");
-        printf("\n");
-        printf("Masukkan Perintah: ");
-        scanf("%d", &perintah);
+        for (;;){
+            printf("\nA = %d\n", A);
+            printf("B = %d\n", B);
+            printf("\nInstruksi Main\n");
+            printf("1. Mengisi Cangkir A\n");
+            printf("2. Mengisi Cangkir B\n");
+            printf("3. Membuang Air Cangkir A\n");
+            printf("4. Membuang Air Cangkir B\n");
+            printf("5. Menuangkan Cangkir A kepada Cangkir B\n");
+            printf("6. Menuangkan Cangkir B kepada Cangkir A\n");
+            printf("\n");
+
+            printf("Masukkan Perintah: ");
+            rtn = scanf("%d", &perintah);
+
+            if (rtn == EOF){
+                fputs ("\nUser canceled input.\n", stderr);
+                return 1;
+            }
+
+            else if (rtn == 0){
+                fputs ("\nError, Mohon masukkan Integer antara 1 - 6.\n", stderr);
+                empty_stdin();
+            }
+
+            else if (perintah < 1 || perintah > 6){
+                fputs ("\nError: Input perintah hanya diantara 1 - 6.\n", stderr);
+                empty_stdin();
+            }
+
+            else{
+                empty_stdin();
+                break;
+            }
+        }
         if (perintah == 1){
             perintah1();
         }
@@ -38,11 +71,8 @@ int main()
         else if (perintah == 6){
             perintah6();
         }
-        printf("A = %d\n", A);
-        printf("B = %d\n", B);
-        printf("\n");
     }
-    printf("B=4 Selamat anda memenangkan permainan ini.");
+    printf("\nB=4 Selamat anda memenangkan permainan ini.\n");
 }
 int max(int num1, int num2){
     int result;
