@@ -1,0 +1,94 @@
+%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'DFD.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{413.25bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.60254083)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{DFD.pdf}}%
+    \put(0.08166969,0.54900181){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Video Database\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{DFD.pdf}}%
+    \put(0.36297641,0.20417423){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Annotation Database\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{DFD.pdf}}%
+    \put(0.36297641,0.44101633){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Shot Boundary\end{tabular}}}}%
+    \put(0.36297641,0.42105263){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Detection\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{DFD.pdf}}%
+    \put(0.27676951,0.30399274){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Boundaries\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{DFD.pdf}}%
+    \put(0.45372051,0.31397459){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Key\end{tabular}}}}%
+    \put(0.45372051,0.29401089){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}frames\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{DFD.pdf}}%
+    \put(0.14519056,0.41288566){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Video\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{DFD.pdf}}%
+    \put(0.8892922,0.06805808){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Shot Preview\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{DFD.pdf}}%
+    \put(0.14519056,0.04990926){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Video\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{DFD.pdf}}%
+    \put(0.65335753,0.35934664){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Storyboard\end{tabular}}}}%
+    \put(0.65335753,0.33938294){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}preview\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{DFD.pdf}}%
+    \put(0.54446461,0.24047187){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Boundaries\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{DFD.pdf}}%
+    \put(0.52631579,0.15970962){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Key\end{tabular}}}}%
+    \put(0.52631579,0.13974592){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}frames\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{DFD.pdf}}%
+    \put(0.65335753,0.55807623){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}User\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{DFD.pdf}}%
+    \put(0.96188748,0.34936479){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Shot\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{DFD.pdf}}%
+    \put(0.79854809,0.21415608){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Shot Preview\end{tabular}}}}%
+    \put(0.79854809,0.19419238){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Request\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{DFD.pdf}}%
+    \put(0.56261343,0.47640653){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Browse Request\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{DFD.pdf}}%
+    \put(0.76225045,0.4491833){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Storyboard\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
