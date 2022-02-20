@@ -5,6 +5,7 @@
 \usepackage[mathletters]{ucs}
 \usepackage[utf8x]{inputenc}
 
+
 % Judul
 \title{Implementasi Algoritma Dijkstra Dalam
 Menemukan Jarak Terdekat Dari Lokasi Pengguna
@@ -276,15 +277,70 @@ pada gambar di bawah ini:
 \begin{algorithm}
     \caption{Program Utama Pencarian Rute Antara Dua Tanaman -
     Pembacaan Jumlah Tanaman}
+    \KwResult{Menyimpan nama tanaman pada sebuah array}
+    \textbf{Algorithm:}
+
+    \textbf{input}(namafile\_tanaman);
+
+    \textbf{open}(namafile\_tanaman);
+
+    \textbf{read}(namafile\_tanaman);
+    
+    n\_tanaman ← 0;
+
+    baris ← 0;
+
+    \While{$baris ≤ max\_len $}{
+        token ← parse(baris);
+
+        token ← nama\_tanaman[n\_tanaman];
+
+        n\_tanaman ← n\_tanaman + 1;
+
+        baris ← baris+1;
+    }
 \end{algorithm}
 
-etelah pembacaan jumlah tanaman dari file, maka diper-lukan graph atau jarak antar tanaman yang akan menjadi dasar
+Setelah pembacaan jumlah tanaman dari file, maka diper-lukan graph atau jarak antar tanaman yang akan menjadi dasar
 perhitungan dari pencarian rute terdekat. Proses memasukkan
 graph dapat dilihat pada algoritma berikut ini:
 
 \begin{algorithm}
     \caption{Program Utama Pencarian Rute Antara Dua Tanaman -
     Memasukkan Graph}
+    \KwResult{Menyimpan graph dalam sebuah matriks $n$×$n$}
+
+    \textbf{input}(namafile\_graph);
+
+    \textbf{open}(namafile\_graph);
+
+    \textbf{read}(namafile\_graph);
+
+    baris ← 0;
+
+    \While{baris≤ max\_len}{
+        $k ← 0;$
+
+        $token ← parse(baris)$
+
+        \While{token != NULL}{
+            graph[$j$]$[k$] ← $token$;
+
+            graph[$k$]$j$] ← $token$;
+
+            \uIf{token == -1}{
+                graph[$j$]$[k$] ← $int\_max$;
+
+                graph[$k$]$j$] ← $int\_max$;
+            }
+            \Else{
+                $k ← k + 1;$
+
+                $token ← parse(NULL)$
+            }
+        }
+        $baris ← baris + 1;$
+    }
 \end{algorithm}
 
 Setelah data yang dibutuhkan dimasukkan, implementasi
@@ -294,10 +350,64 @@ sebagai berikut:
 \begin{algorithm}
     \caption{Program Utama Pencarian Rute Antara Dua Tanaman: Pencarian
     Jarak dengan Algoritma Di-jkstra}
+    \textbf{Algorithm:}
+
+    \textbf{input}(idx\_a);
+
+    idx\_a ← idx\_a-1;
+
+    \textbf{input}(idx\_tujuan);
+
+    idx\_tujuan ← idx\_tujuan - 1;
+
+    \For{$i = 0$ \textbf{to} n\_tanaman}{
+        \uIf{i = idx\_a}{
+            jarak\_f[i] ← 0;
+
+            is\_final[i] ← $FALSE$;
+        }
+        \Else(){
+            jarak\_f[i] ← int\_max;
+
+            is\_final[i] ← $FALSE$;
+        }
+        \For{j = 0 \textbf{to} n\_tanaman}{
+            list\_dilalui[i][j] ← int\_max;
+        }
+        idx\_lalui[i] ← 0;
+    }
+
+    jarak\_f[idx\_a] ← 0;
+
+    list\_dilalui[idx\_a][0] ← idx\_a;
+
+    idx\_lalui[idx\_a] ← idx\_lalui[idx\_a]+1;
+
+    idx\_now ← idx\_a;
+    
+    \While{idx\_now != int\_max}{
+        is\_final[idx\_now] ← $TRUE$;
+
+        \For{i = 0 \textbf{to} n\_tanaman-1}{
+            \If{(!is\_final[i]) \textbf{and} graph[idx\_now][i] !=
+             int\_max \textbf{and} (jarak\_f[idx\_now][i] > jarak\_f[i])}{
+                jarak\_f[i] ← (jarak\_f[idx\_now][i]);
+                idx\_lalui ← idx\_lalui[idx\_now] +1;
+             }
+        \For{j = 0 \textbf{to} idx\_dilalui[i] - 1}{
+            \uIf{j = idx\_dilalui[i] - 1}{
+                list\_dilalui[i][j] ← i;
+            }
+            \Else(){
+                list\_dilalui[i][j] ← list\_dilalui[idx\_now][j];
+            }
+        }
+        }
+        idx\_now ← idx\_process(n\_tanaman, jarak\_f, is\_final);
+    }
 \end{algorithm}
 
 C. \textit{Implementasi Program dalam Bahasa C}
-
 
 Implementasi program dalam bahasa C dapat dilihat
 pada repository berikut. https://github.com/ReynaldoAverill/
@@ -305,7 +415,6 @@ Tugas7PMC
 
 
 D. \textit{Perhitungan Kompleksitas Waktu}
-
 
 Kompleksitas dari program ini dengan notasi kompleksitas
 Big O adalah $O(n^2)$. Hal tersebut disebabkan pada loop

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.15)  20 FEB 2022 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.15)  20 FEB 2022 23:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -196,20 +196,20 @@ File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 -- Lines per column: 56 (exact).
 (C:\Users\adroa\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -260,9 +260,9 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 91.
+(Font)              <7> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 91.
+(Font)              <5> on input line 92.
  (C:\Users\adroa\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
 ) [1{C:/Users/adroa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
@@ -276,11 +276,14 @@ Package pdftex.def Info: ./gambar//alur.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 203.25937pt x 413.31195pt.
 ) [2 <./gambar//alur.pdf>] (C:\Users\adroa\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-33.def
 File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
+) (C:\Users\adroa\AppData\Local\Programs\MiKTeX\tex/latex/ucs\uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-Underfull \hbox (badness 2027) in paragraph at lines 302--305
+Underfull \hbox (badness 2027) in paragraph at lines 412--415
 \OT1/ptm/m/n/10 repos-i-tory berikut. https://github.com/ReynaldoAverill/ Tu-
  []
 
+[3]
 No file main.bbl.
 
 ** Conference Paper **
@@ -293,19 +296,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3] (main.aux) ) 
+[4] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 5318 strings out of 478659
- 90574 string characters out of 2845920
- 401765 words of memory out of 3000000
- 23371 multiletter control sequences out of 15000+600000
+ 5807 strings out of 478659
+ 95663 string characters out of 2845920
+ 415681 words of memory out of 3000000
+ 23857 multiletter control sequences out of 15000+600000
  435000 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,16n,67p,437b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,19n,67p,437b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/adroa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 160289 bytes).
+Output written on main.pdf (4 pages, 167642 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
