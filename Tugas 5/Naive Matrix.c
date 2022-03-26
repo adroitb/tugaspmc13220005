@@ -31,7 +31,7 @@ void kali_matriks(int N, int** A, int** B)
 int main(){
     int N;
 
-    printf("Masukkan ukuran matriks\n");
+    printf("Masukkan ukuran matriks: ");
     scanf("%d", &N);
 
     int** A = (int**)malloc(N * sizeof(int*));
