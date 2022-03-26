@@ -11,20 +11,17 @@ void randomArray(int N, int** A, int** B){
     }
 }
 
-void kali_matriks(int N, int** A, int** B)
+void kali_matriks(int N, int** A, int** B, int** C)
 {
-        int result[N][N];
-        printf("\n\nPerkalian Matriks : \n");
+        printf("\n\nExecution Time : \n");
         for(int i = 0; i < N; i++){
             for(int j = 0 ; j < N ; j++){
-                result[i][j] = 0;
+                C[i][j] = 0;
 
                 for(int k = 0; k < N; k++){
-                    result[i][j] += A[i][k] * B[k][j];
+                    C[i][j] += A[i][k] * B[k][j];
                 }
-                printf("%d ", result[i][j]);
             }
-            printf("\n");
     }
 }
 
@@ -36,14 +33,18 @@ int main(){
 
     int** A = (int**)malloc(N * sizeof(int*));
     int** B = (int**)malloc(N * sizeof(int*));
+    int** C = (int**)calloc(N, sizeof(int*));
 
     for(int i = 0; i < N; ++i){
         A[i] = (int*)malloc(sizeof(int) * N);
         B[i] = (int*)malloc(sizeof(int) * N);
+        C[i] = (int*)calloc(N, sizeof(int));
     }
     randomArray(N, A, B);
-    kali_matriks(N, A, B);
-    getch();
+    kali_matriks(N, A, B, C);
+    free(A);
+    free(B);
+    free(C);
     return 0;
 }
 
